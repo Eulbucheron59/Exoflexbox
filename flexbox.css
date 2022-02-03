@@ -1,0 +1,93 @@
+body {
+  height: 100vh;
+  background-color: gray
+;
+}
+
+.container {
+  background-color: black;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.child {
+  width: 30%;
+  color: white;
+  font-size: xx-large;
+  margin: auto;
+}
+
+.child:last-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.child:first-child {
+  width: 20%;
+  text-align: center;
+}
+
+.child a img  {
+  width: 20px;
+  margin-right: 20px;
+}
+
+#containerMenu {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  font-size: 1em;
+
+}
+
+#containerMenu a {
+  margin-right: 20px;
+  margin: auto;
+  text-decoration: none;
+  color: white;
+}
+
+#movie {
+  margin: 30px auto;
+  width: 70%;
+  height: 120vh;
+  background-color: rgb(83, 87, 87);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.affiche {
+  
+  height: 50vh;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  margin: 20px;
+  color: white;
+  font-size: xx-large;
+}
+.affiche img {
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+}
+
+/* .affiche a img href{
+  
+  text-decoration: none;
+  text-align: justify;
+  max-width: 50%;
+	height: auto;
+} */
+p {
+  font-size: 0.5em;
+  text-align: center;
+  text-decoration: none;
+  font: bold;
+}
